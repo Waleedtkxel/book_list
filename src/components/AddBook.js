@@ -28,7 +28,7 @@ const AddBook = () => {
     <div style={{ margin: 120 }}>
       <form onSubmit={submitHandler} className="form-group">
         <input
-          style={{ margin: 20 }}
+          style={{ margin: '20px' }}
           name="title"
           className="form-control"
           onChange={(event) => setTitle(event.target.value)}
@@ -38,7 +38,7 @@ const AddBook = () => {
         />
 
         <input
-          style={{ margin: 20 }}
+          style={{ margin: '20px'}}
           name="author"
           className="form-control"
           onChange={(event) => setAuthor(event.target.value)}
@@ -48,7 +48,7 @@ const AddBook = () => {
         />
 
         <button
-          style={{ margin: 20 }}
+          style={{ margin: 10  , marginLeft : '200px' }}
           className="btn btn-primary"
           type="submit"
         >
