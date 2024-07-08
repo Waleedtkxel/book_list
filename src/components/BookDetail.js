@@ -18,7 +18,7 @@ const BookDetail = ({ book }) => {
             Edit
           </div>
         ) : (
-          <div onClick={() => setTrue(!true)} className="btn btn-primary ml-5">
+          <div onClick={() => setTrue(!true)} className="btn btn-primary mx-2">
             Back
           </div>
         )}
