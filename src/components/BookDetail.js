@@ -9,12 +9,12 @@ const BookDetail = ({ book }) => {
 
   return (
     <div className="card">
-      <h5 className="card-header">
+      <h5 className="card-header d-flex justify-content-end">
         <div onClick={() => removeBook(book.id)} className="btn btn-primary">
           Delete
         </div>
         {isEdit === false ? (
-          <div onClick={() => setTrue()} className="btn btn-primary ml-5">
+          <div onClick={() => setTrue()} className="btn btn-primary mx-2">
             Edit
           </div>
         ) : (
