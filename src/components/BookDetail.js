@@ -34,7 +34,7 @@ const BookDetail = ({ book }) => {
             setTrue={setTrue}
           />
         )}
-        <p className="blockquote-footer">{book.author}</p>
+        <p className="blockquote-footer my-2">{book.author}</p>
       </div>
     </div>
   );
